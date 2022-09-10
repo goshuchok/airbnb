@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import OptionsTab from './components/OptionsTab';
 import LocationCards from './components/LocationCards';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             <Container maxWidth="xl" sx={{ mb: 3 }}>
               <LocationCards />
             </Container>
+          </Box>
+          <Box>
+            <Footer />
           </Box>
         </Box>
       </CssBaseline>
